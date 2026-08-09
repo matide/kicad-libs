@@ -1,0 +1,232 @@
+(footprint "OSC_ECS-2520S25-250-FN-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.667367 -1.86 0)
+		(layer "F.SilkS")
+		(uuid "3d11ee96-92f7-467c-84a0-863b4144e151")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.04)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "OSC_ECS-2520S25-250-FN-TR"
+		(at 3.336563 1.91958 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "714e95e5-1902-4967-b795-ec70898a992a")
+		(effects
+			(font
+				(size 0.320631 0.320631)
+				(thickness 0.080158)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71a5d656-0aa1-46ac-b076-e42ac8257776")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1daf679-ace7-4918-bbab-59e9b8c0ab76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.221 -1)
+		(end 0.221 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3de059d1-ada6-46ce-a6b6-47d5cedb9b2d")
+	)
+	(fp_line
+		(start -0.221 1)
+		(end 0.221 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df748bb5-e018-47c8-a19c-24b46290f8c3")
+	)
+	(fp_circle
+		(center -2.17 0.725)
+		(end -1.87 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6b4e9af0-6b2e-4cd1-8d73-17648ee9c6a3")
+	)
+	(fp_line
+		(start -1.625 -1.375)
+		(end 1.625 -1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "000195d9-3ad7-44d7-bccb-43a26b676eb2")
+	)
+	(fp_line
+		(start -1.625 1.375)
+		(end -1.625 -1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5311643a-3751-4284-b71e-76bcf733ebfa")
+	)
+	(fp_line
+		(start 1.625 -1.375)
+		(end 1.625 1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "850018f0-3168-4897-86dc-918f423b9bb4")
+	)
+	(fp_line
+		(start 1.625 1.375)
+		(end -1.625 1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cf5b325-0881-4bf8-a19b-651e0e620c24")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3685a2a-7e2b-465a-b66c-6ab08b9aafa4")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eda65035-92c1-4591-b9fd-8b0a1005b4f7")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75a61b76-6aed-4996-9b97-6aa7c0d416fd")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cd4924f-2fbc-4d1a-ab83-04eb2c6b97b8")
+	)
+	(fp_circle
+		(center -2.17 0.725)
+		(end -1.87 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "76dcc565-e5a4-4a18-b608-9c7119923541")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.667367 -1.6774 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5eeb4d7-e550-4ac8-a29e-16dfbea57d3a")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.04)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ab268885-d512-43df-bf5d-0f4580de132e")
+	)
+	(pad "2" smd rect
+		(at 0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "836f7c0d-4959-4250-9c29-5620eb7b16d7")
+	)
+	(pad "3" smd rect
+		(at 0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b3788444-31ca-4af2-a27f-782cc224bbf2")
+	)
+	(pad "4" smd rect
+		(at -0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "14d68163-f2b7-40d5-b4d9-1e9f96bd492a")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Crystal.3dshapes/ECS-2520MV-250-CN-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

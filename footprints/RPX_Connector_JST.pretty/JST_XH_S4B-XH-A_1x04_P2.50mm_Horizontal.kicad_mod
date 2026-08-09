@@ -1,0 +1,338 @@
+(footprint "JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST XH series connector, S4B-XH-A, SnapEDA (https://www.snapeda.com/parts/S2B-XH-A/JST%20Sales/view-part/?ref=search&t=S2B-XH-A&ab_test_case=b)")
+	(tags "connector JST XH Horizontal")
+	(property "Reference" "REF**"
+		(at -3.195 -10.795 0)
+		(layer "F.SilkS")
+		(uuid "d7bef48a-18b1-4db9-8509-7f8cd1d3be90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_S4B-XH-A"
+		(at 1.25 -9.2075 0)
+		(layer "F.Fab")
+		(uuid "0452f5bc-28d4-4928-965b-41eb557aa1a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${RUPIDEX_DATASHEET_DIR}/eXH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24f49437-0cae-49d7-a274-82bee489a486")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ec85d98-1ddb-4edf-9c20-9786be73bbd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.2 -8)
+		(end -6.2 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3eb6af1-86da-48bf-9925-fbd8e322b928")
+	)
+	(fp_line
+		(start -5.3 -8)
+		(end -6.2 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "def0baee-6bc7-47d3-8f3e-db37d4c28c4a")
+	)
+	(fp_line
+		(start -5.3 -3.5)
+		(end -5.3 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59523a7a-3c11-4391-b80d-d096128e2ab3")
+	)
+	(fp_line
+		(start 5.3 -8)
+		(end 5.3 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "244a6a88-ce23-4236-bf23-75615c03d4ba")
+	)
+	(fp_line
+		(start 5.3 -3.5)
+		(end -5.3 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "426300bb-8021-4521-bb2b-f4328fdfa2ba")
+	)
+	(fp_line
+		(start 6.2 -8)
+		(end 5.3 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "008ea29b-dd81-4b3b-b811-d44a543bb557")
+	)
+	(fp_line
+		(start 6.2 3.5)
+		(end 6.2 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "980c3b9e-5360-4300-b970-de48d3c8a53a")
+	)
+	(fp_circle
+		(center -6.75 -5.7)
+		(end -6.65 -5.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e731ef5-4c80-4e47-9ba2-4a83289e3a99")
+	)
+	(fp_line
+		(start -6.45 -8.25)
+		(end -6.45 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58433b0d-36c1-4125-902c-e9a8e7a179b4")
+	)
+	(fp_line
+		(start -6.45 3.75)
+		(end 6.45 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11335cbc-630f-4fdb-a39e-dd17ae172997")
+	)
+	(fp_line
+		(start 6.45 -8.25)
+		(end -6.45 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2011380f-7454-4e51-96fa-d9de99db34b0")
+	)
+	(fp_line
+		(start 6.45 3.75)
+		(end 6.45 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d0bd056-1372-41ac-8829-4fd80dfe5dd1")
+	)
+	(fp_line
+		(start -6.2 -8)
+		(end -6.2 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd7891f1-3791-4c73-badc-203f8aa8f108")
+	)
+	(fp_line
+		(start -6.2 3.5)
+		(end 6.2 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35bb7bc9-6a6f-4576-8a11-dbcde7ce875c")
+	)
+	(fp_line
+		(start -5.3 -8)
+		(end -6.2 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1c83fa1-bad0-408c-9c3c-c8b7cf3985c7")
+	)
+	(fp_line
+		(start -5.3 -3.5)
+		(end -5.3 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52e092c8-45eb-4f83-9cec-f8c61c8ab008")
+	)
+	(fp_line
+		(start 5.3 -8)
+		(end 5.3 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1bce739-b9e8-45bd-9f5b-1f532db5e8f5")
+	)
+	(fp_line
+		(start 5.3 -3.5)
+		(end -5.3 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11047f4a-e88d-4369-9b93-d12035a1448e")
+	)
+	(fp_line
+		(start 6.2 -8)
+		(end 5.3 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eee4872a-d553-460a-a81c-6017bd5c27e1")
+	)
+	(fp_line
+		(start 6.2 3.5)
+		(end 6.2 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc6da0be-5695-4c80-a069-e8b6a1b84610")
+	)
+	(fp_line
+		(start 6.2 3.5)
+		(end 8.82 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f989b2ec-1281-43a2-a32c-6e3851ee358f")
+	)
+	(fp_circle
+		(center -6.75 -5.7)
+		(end -6.65 -5.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "130e11e7-2d9c-49f0-83b4-0d5ae7e3f01d")
+	)
+	(fp_text user "PCB Edge"
+		(at 6.6675 3.2025 0)
+		(layer "F.Fab")
+		(uuid "d5bb3c9b-5667-4c1d-b21f-9753b2d7e763")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.75 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a88c0828-0e2f-4963-89bb-8ba97a8c2fb2")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6c942d6f-e3d4-44e6-a161-8ca4208a91b1")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "43c34355-6170-45f7-9f4f-5b49497ed359")
+	)
+	(pad "4" thru_hole circle
+		(at 3.75 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c63ed756-82db-476f-bf23-571eded4c7f1")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_JST.3dshapes/JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal.step"
+		(offset
+			(xyz -3.78 5.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
+
+

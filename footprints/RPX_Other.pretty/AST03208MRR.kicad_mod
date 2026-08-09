@@ -1,0 +1,203 @@
+(footprint "AST03208MRR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AST-03208MR-R-1")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "SPK**"
+		(at 0 8.765 0)
+		(layer "F.SilkS")
+		(uuid "981aae98-c5fd-4830-9ae8-dcb22349cf2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AST03208MRR"
+		(at 0 8.765 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c8c77a0-3586-47b5-bafd-96133ac9af76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf8e711-7bf3-457e-baff-9c184c2d2bcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be20a051-c77b-47e1-9c55-30b5891f88a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -15.95 8.765)
+		(end -15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21a3246b-87ff-4fa3-94c4-133da35719dc")
+	)
+	(fp_line
+		(start 15.95 8.765)
+		(end 15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afdcd14b-9a9a-45f6-820a-6d9e40e1b840")
+	)
+	(fp_arc
+		(start -15.95 8.765)
+		(mid 0 -7.185)
+		(end 15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d1bb93-9311-4873-854c-f11b54951a31")
+	)
+	(fp_arc
+		(start 15.95 8.765)
+		(mid 0 24.715)
+		(end -15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9543ce26-c590-4ab3-a7e1-4f38aa910907")
+	)
+	(fp_arc
+		(start -15.95 8.765)
+		(mid 0 -7.185)
+		(end 15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "346e8507-8661-4380-9417-0973a381140d")
+	)
+	(fp_arc
+		(start 15.95 8.765)
+		(mid 0 24.715)
+		(end -15.95 8.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c66ede6-a4dd-4faf-a55a-4923777ad460")
+	)
+	(fp_line
+		(start 0 -7.185)
+		(end 0 -7.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b50862ef-0bde-4a6c-809b-884caed5b50f")
+	)
+	(fp_line
+		(start 0 24.715)
+		(end 0 24.715)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5ddd166-cc67-4af7-a60b-354ed0884501")
+	)
+	(fp_arc
+		(start 0 -7.185)
+		(mid 15.95 8.765)
+		(end 0 24.715)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9da2bb0-32d8-48f5-88cd-c5d4db20ff97")
+	)
+	(fp_arc
+		(start 0 24.715)
+		(mid -15.95 8.765)
+		(end 0 -7.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9dcc2d1-b9c5-4f2f-8bdc-c861cc5941d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.765 0)
+		(layer "F.Fab")
+		(uuid "4503e92f-8a56-47b9-a822-1812e0f033fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ef03a78-2033-4ff4-a2af-8fd2ff998894")
+	)
+	(pad "2" thru_hole circle
+		(at 0 17.53)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc20ceff-d19c-414a-b006-15f00ea20904")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Other.3dshapes/AST-03208MR-R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+
+

@@ -1,0 +1,121 @@
+(footprint "INDRD750W80D1350H1800"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AIUR-06-221K Power Inductor Radial D13.5mm P7.5mm")
+	(tags "Radial")
+	(property "Reference" "REF**"
+		(at -0.635 -7.835 0)
+		(layer "F.SilkS")
+		(uuid "68805d6b-b0cc-43c1-9b39-d49857281919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AIUR-06-221K"
+		(at 9.525 7.755 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbee7e59-4305-4793-8218-1c85c09d81cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${RUPIDEX_DATASHEET_DIR}\\Inductor\\AIUR-06.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee18eaf3-59cb-4121-96d7-5409bf2a70a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d8a7733-92a0-45f2-96ed-41f602a6cfeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9a73eba0-01b4-4a50-b58a-503035e118b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb7a6e21-1975-4322-84b2-e2dd331d62ad")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e4dfe87b-101e-420b-9ca6-fdbd44dc4695")
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 0)
+		(size 1.35 1.35)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "292b6d7a-4692-420e-b8b5-e3591f7dcabe")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 0)
+		(size 1.35 1.35)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8db7955e-c898-4012-85e9-718104319432")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Inductor/AIUR-06-221K.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+
+

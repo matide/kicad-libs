@@ -1,0 +1,229 @@
+(footprint "IC4_KMR231NGLFS_CNK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "KMR231NGLFS ")
+	(property "Reference" "REF**"
+		(at 4.08 -0.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04e842bc-27fe-4948-8028-3e855497f976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IC4_KMR231NGLFS_CNK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1633162f-bcfe-49ff-9b84-9b0ed118c0a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "656c9139-208a-456c-a240-e41a7c329a7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bd195b8-aa07-4c75-96e9-7b25e143cbcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.524 -1.363811)
+		(end -1.524 1.363811)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6c56367-3df8-4863-b2f3-f31126fe2368")
+	)
+	(fp_line
+		(start 1.524 1.363811)
+		(end 1.524 -1.363811)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56385420-3cef-45a5-b9ff-75e5c3c1bb45")
+	)
+	(fp_circle
+		(center -2.25 -2.07)
+		(end -1.95 -2.07)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4efb1418-14c6-4d79-90d2-e73cfa7e2573")
+	)
+	(fp_line
+		(start -1.651 -2.748499)
+		(end -1.651 2.748499)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c1a3080-2b8a-45cb-8e53-ee4c3452c3bf")
+	)
+	(fp_line
+		(start -1.651 2.748499)
+		(end 1.651 2.748499)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d24fdd3-26da-4362-8d67-faa2b3ebe95f")
+	)
+	(fp_line
+		(start 1.651 -2.748499)
+		(end -1.651 -2.748499)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f7fc73a-85d5-4b93-a7fd-639ce9d53a7a")
+	)
+	(fp_line
+		(start 1.651 2.748499)
+		(end 1.651 -2.748499)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd5cf49e-2f7a-49b4-bdeb-9ccbad1354bf")
+	)
+	(fp_line
+		(start -1.397 -2.0955)
+		(end -1.397 2.0955)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fa0783e-c50b-4f3b-bae4-42e0292a4602")
+	)
+	(fp_line
+		(start -1.397 2.0955)
+		(end 1.397 2.0955)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "505a7cda-a6a1-4289-8277-7102fc5390ae")
+	)
+	(fp_line
+		(start 1.397 -2.0955)
+		(end -1.397 -2.0955)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63a66908-cf92-4c36-8317-9cd06090faa2")
+	)
+	(fp_line
+		(start 1.397 2.0955)
+		(end 1.397 -2.0955)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a9bc36c-4e57-453d-803b-e8be73725ad7")
+	)
+	(fp_circle
+		(center -0.800001 -0.79)
+		(end -0.500001 -0.79)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5574a8b2-a948-4b0d-82a9-64126bebfae3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.39 -0.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c62996a8-0b9f-4106-a4ca-efe4b51298a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.800001 -2.049998)
+		(size 0.9906 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0649b463-1801-481d-a4eb-4f99af1228fc")
+	)
+	(pad "2" smd rect
+		(at 0.800001 -2.049998)
+		(size 0.9906 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03c38406-4f7e-4e06-a5e7-8781d5442590")
+	)
+	(pad "3" smd rect
+		(at 0.800001 2.049998)
+		(size 0.9906 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8d16345-5e32-4dfd-b08d-0ca736889331")
+	)
+	(pad "4" smd rect
+		(at -0.800001 2.049998)
+		(size 0.9906 0.889)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "627f58ad-bf06-45fa-87a5-8d13d868140a")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Button_Switch_SMD.3dshapes/KMR231NGLFS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
+
+

@@ -1,0 +1,120 @@
+(footprint "Label_18x6mm_SilkScreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7 -4 0)
+		(layer "F.SilkS")
+		(uuid "33490156-e46c-4393-9193-19d6ae57db5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Label_18x6mm_SilkScreen"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5a5e252-5526-402d-87e1-a312df65d19a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8fa0043-387d-4ec0-9060-d49ba1ea0e75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Label 18x6mm SikScreen"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23f34cf7-1363-4316-99aa-e743cacaa0d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -9 -3)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65172ecc-4449-402b-bc08-f8d058bdbf7a")
+	)
+	(fp_line
+		(start -9 -3)
+		(end 9 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0976377b-6be5-4dea-96e3-8961228c8af8")
+	)
+	(fp_line
+		(start -9 3)
+		(end -9 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a12914d5-6dfd-4b7d-96b2-f8b5920872fd")
+	)
+	(fp_line
+		(start 9 -3)
+		(end 9 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "52d30679-1ac2-4883-a9b4-9f408111ccd0")
+	)
+	(fp_line
+		(start 9 3)
+		(end -9 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dde7d81e-aa9a-43dc-baad-c6ca0278391b")
+	)
+	(fp_text user "Label 18x6mm"
+		(at -6.75 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "233e97e9-11a1-4b91-b25e-4dc41709cc71")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)
+
+

@@ -1,0 +1,249 @@
+(footprint "CONN_SD-47053-001_H10P00_MOL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex KK Series, 4 pin vertical with friction lock for 3 pin")
+	(tags "Molex KK Series Vertical Partial Friction Lock")
+	(property "Reference" "REF**"
+		(at -7 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "98d22204-86b8-4b72-9de0-838822499087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_SD-47053-001_H10P00_MOL"
+		(at 12.2428 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25e5ae04-8932-4260-8995-0d8737512259")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${RUPIDEX_DATASHEET_DIR}\\Connector\\Molex_0470531000.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e7935c-090f-4eda-a804-e6f681b83dde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a18de67e-493d-411b-9905-0b75401437ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.0424 -3.429)
+		(end -9.0424 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baf341f4-f8e9-4b57-9b4a-d474af884ebb")
+	)
+	(fp_line
+		(start -9.0424 2.667)
+		(end -5.9182 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3993d93a-73a0-44f9-b698-ed89553f35f5")
+	)
+	(fp_line
+		(start -4.2418 2.667)
+		(end 1.4224 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffd5d0a3-3a58-4d4a-bb5a-233ea5b95f45")
+	)
+	(fp_line
+		(start 1.4224 -3.429)
+		(end -9.0424 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ee28a31-c11f-4e10-b503-9af85e4604b1")
+	)
+	(fp_line
+		(start 1.4224 2.667)
+		(end 1.4224 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a2da35a-35a8-4744-af16-1ba201200971")
+	)
+	(fp_circle
+		(center 2 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d23e4877-5922-4f91-ae31-210655ba4732")
+	)
+	(fp_rect
+		(start -9.45 -3.82)
+		(end 3.1 3.07)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "28be1c77-5dc3-424a-9031-92cc883ffcf8")
+	)
+	(fp_line
+		(start -8.9154 -3.302)
+		(end -8.9154 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c813175-fe06-4f26-b88f-661e261d4626")
+	)
+	(fp_line
+		(start -8.9154 2.54)
+		(end 1.2954 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0628835-a920-4989-b522-5a42dd717d92")
+	)
+	(fp_line
+		(start 1.2954 -3.302)
+		(end -8.9154 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc00abb8-738e-4c8c-8478-eca3d3cb396b")
+	)
+	(fp_line
+		(start 1.2954 2.54)
+		(end 1.2954 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c97e595-38a8-43e4-a500-3c68d68825a0")
+	)
+	(fp_circle
+		(center 2 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "57551416-1973-4539-bacc-0a4facb40d01")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9.267857 -3.89825 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "effaf108-0c6a-4e25-872e-4424ccfa498d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 2.159)
+		(size 1.2954 1.2954)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(uuid "09c53dd3-c56d-40f1-80ee-aef044c209e4")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "00b88ac6-0d34-4fb7-9fdb-7eea081f60d0")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fd93cf6a-5ccb-4dfd-9f36-806b5e29757a")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b2d41bd7-1aae-420b-8fd4-6baf822694e7")
+	)
+	(pad "4" thru_hole circle
+		(at -7.62 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "403bdc1a-c2f2-44ce-b1ed-0ab5ce81f1c7")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_Molex.3dshapes/470531000.stp"
+		(offset
+			(xyz -3.8 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

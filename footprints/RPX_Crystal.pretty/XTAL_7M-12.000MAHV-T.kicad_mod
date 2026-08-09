@@ -1,0 +1,231 @@
+(footprint "XTAL_7M-12.000MAHV-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.475 -2.885 0)
+		(layer "F.SilkS")
+		(uuid "97aec587-6671-4df0-b0bc-36335a65b5df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_7M-12.000MAHV-T"
+		(at 11 2.885 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "222afeaa-107e-4a87-a85f-12dbcf5d9574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c687a9d-611f-452e-ae0e-d7702faef438")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca86a22-b00a-452a-b996-27edb088dda4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.08)
+		(end -1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08655d27-248a-4631-a04c-23c554856b05")
+	)
+	(fp_line
+		(start 1.25 -0.08)
+		(end 1.25 0.08)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0176c6f-1418-41db-984b-18e7d857dd54")
+	)
+	(fp_circle
+		(center -2.2 -1.1)
+		(end -1.9 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "79f286a3-7cf3-4d7a-8173-b7b4e722f725")
+	)
+	(fp_line
+		(start -1.7 -2.05)
+		(end -1.7 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b9549b6-7e72-40ea-8ee0-71761ee48b42")
+	)
+	(fp_line
+		(start -1.7 -2.05)
+		(end 1.7 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f64be5e-9591-4026-b079-37ff5f2d8a46")
+	)
+	(fp_line
+		(start 1.7 -2.05)
+		(end 1.7 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0029aa21-ce6f-4f27-b26e-4529c018354d")
+	)
+	(fp_line
+		(start 1.7 2.05)
+		(end -1.7 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b1516e0-0e91-4e09-bf06-823bdd359bd7")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65b92c1b-e191-4be8-9b13-401ab00d02b1")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end 1.25 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9309858-0df5-49bf-9a0b-6d89f4cf2ce2")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22358435-b27f-4051-a0b9-46d5d4813bd3")
+	)
+	(fp_line
+		(start 1.25 1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69d26cc3-6f46-4f94-abb2-8e7dffe83659")
+	)
+	(fp_circle
+		(center -2.2 -1.1)
+		(end -1.9 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d93ef32f-f17b-4565-9851-9df356de25e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.792857 -2.3455 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89a65202-7d37-45e3-a1de-48fa06d49aa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 -1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4a3a729f-23db-49df-be3b-14df10ea3eff")
+	)
+	(pad "2" smd rect
+		(at -0.85 1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3a71553e-8b37-4011-a94b-43c9e65e7cdc")
+	)
+	(pad "3" smd rect
+		(at 0.85 1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "114814b1-57ba-4fc7-8891-e08bea910b0a")
+	)
+	(pad "4" smd rect
+		(at 0.85 -1.1)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6d79acf7-91a6-4100-bcb4-bd07843f41af")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Crystal.3dshapes/7M-12.000MAHV-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

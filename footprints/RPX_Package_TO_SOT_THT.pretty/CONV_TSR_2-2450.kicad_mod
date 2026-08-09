@@ -1,0 +1,266 @@
+(footprint "CONV_TSR_2-2450"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3 pin TO 220 ")
+	(tags "3 pin TO")
+	(property "Reference" "REF**"
+		(at -3.775 -5.085 0)
+		(layer "F.SilkS")
+		(uuid "b9433a9d-5e08-44d0-82d8-6ea519b54f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONV_TSR_2-2450"
+		(at 2.575 5.585 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1552a91-d90a-42da-aa47-b3adfb5a8eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${RUPIDEX_DIR_DATASHEETS}\\Regulator_Switching\\TracoPower_TSR2-Series_DCDC-Converters.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6166c350-e1ee-4db3-bf6b-e81031d0ebb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0330c015-d343-4bfe-984b-355c5163b742")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 -3.75)
+		(end 7 -3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fefa3e3d-0cfe-49a5-b74e-6be1ca492927")
+	)
+	(fp_line
+		(start -7 3.75)
+		(end -7 -3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae79a725-98e5-4241-bde6-79a916f3482c")
+	)
+	(fp_line
+		(start 7 3.75)
+		(end -7 3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bd9495d-7ded-4057-b619-3634adfb907a")
+	)
+	(fp_line
+		(start 7 3.75)
+		(end 7 -3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de2669dd-5b86-495c-a8bd-76f1fcdd924d")
+	)
+	(fp_circle
+		(center -2.52 4.55)
+		(end -2.37 4.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "43a37e81-612b-4cf2-8f17-5ae0af3fd6e5")
+	)
+	(fp_line
+		(start -7.25 -4)
+		(end -7.25 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03f198f7-ffe4-43b6-b568-584a9dc7730a")
+	)
+	(fp_line
+		(start -7.25 -4)
+		(end 7.25 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "842e8a61-a73f-4f38-b004-ca9eb558cd2d")
+	)
+	(fp_line
+		(start 7.25 4)
+		(end -7.25 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27a1a2fc-2c13-43a4-83ae-e6a259cb2af3")
+	)
+	(fp_line
+		(start 7.25 4)
+		(end 7.25 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a29b4761-ad37-41e2-a525-6afe7db78418")
+	)
+	(fp_circle
+		(center -2.52 4.55)
+		(end -2.22 4.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Fab")
+		(uuid "9f60433c-d014-42a2-868b-ec94a72f53a1")
+	)
+	(fp_line
+		(start -7 -3.75)
+		(end 7 -3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b3e0120-b5a6-4712-9f55-63e6d414fe93")
+	)
+	(fp_line
+		(start -7 3.75)
+		(end -7 -3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "097ab706-51e5-49a9-8745-8ba473a6cad0")
+	)
+	(fp_line
+		(start 7 -3.75)
+		(end 7 3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b86073ac-a19a-4648-b429-86c26ad133d4")
+	)
+	(fp_line
+		(start 7 3.75)
+		(end -7 3.75)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5db90a9-b930-48b8-b8be-4e674b1f94e2")
+	)
+	(fp_circle
+		(center -2.52 4.55)
+		(end -2.22 4.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "95d938eb-569f-425f-a61e-4ef16eae9642")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6.17 -4.69 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "959dac4d-3743-44a7-a117-aa3d07275dce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 -0.14)
+		(size 1.448 1.448)
+		(drill 0.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(zone_connect 0)
+		(uuid "bcc7e584-60d3-494e-9b97-ec19c3154f69")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -0.14)
+		(size 1.448 1.448)
+		(drill 0.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(zone_connect 0)
+		(uuid "8723d590-e208-473a-aa6b-a4e6fbfd0b35")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -0.14)
+		(size 1.448 1.448)
+		(drill 0.94)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(zone_connect 0)
+		(uuid "d50dd43a-e7cc-42c9-a311-d46eb7cee0b6")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Package_TO_SOT_THT.3dshapes/TSR_2-2450.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

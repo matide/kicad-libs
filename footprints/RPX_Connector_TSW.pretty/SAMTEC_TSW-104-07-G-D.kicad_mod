@@ -1,0 +1,326 @@
+(footprint "SAMTEC_TSW-104-07-G-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.12 -3.81 0)
+		(layer "F.SilkS")
+		(uuid "9aff0c2b-f90c-479b-add8-add73deba06a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "SAMTEC_TSW-104-07-G-D"
+		(at 7.255 4.405 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9539f2e2-52b8-48a8-85b7-6eaccc97b4cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5fb1b82-1fe5-4b1c-86c9-91c450f9f81d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "632a0cd8-9d6b-42b8-881a-309552b88f2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 2.54)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86ccf38e-69dc-48f6-8c02-f39476a6f1ef")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3465b081-7226-44d9-92ec-b52a80baec56")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c7b918d-81d7-4c0c-a73d-a3d4b92778f0")
+	)
+	(fp_line
+		(start 5.08 2.54)
+		(end -5.08 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "530099a2-efa2-464a-837b-9442fcaec814")
+	)
+	(fp_circle
+		(center -5.94 1.26)
+		(end -5.64 1.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1665272b-8b40-4064-bafc-b831f7878741")
+	)
+	(fp_line
+		(start -5.33 -2.79)
+		(end 5.33 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "383754f6-5633-4a4d-b8df-591bc5475fd0")
+	)
+	(fp_line
+		(start -5.33 2.79)
+		(end -5.33 -2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48bba921-3549-4772-a25e-f7d4a9cbf24b")
+	)
+	(fp_line
+		(start 5.33 -2.79)
+		(end 5.33 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b821a20-00e4-4497-afab-3e0852ba13b4")
+	)
+	(fp_line
+		(start 5.33 2.79)
+		(end -5.33 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d4e44a7-a39f-46a1-ac37-527cee61f15f")
+	)
+	(fp_line
+		(start -5.08 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16c77866-8894-40b1-88e0-e598bc520a03")
+	)
+	(fp_line
+		(start -5.08 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6138d96b-4ee2-43f2-9515-5664988a339a")
+	)
+	(fp_line
+		(start -5.08 2.54)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73c55e68-9c10-4118-87c6-9b397f110b10")
+	)
+	(fp_line
+		(start -5.08 2.54)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98bf000f-80b0-4b22-b9f1-68771e5ad836")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c18bb05-c0e4-412c-b976-b41ff5b7027d")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97634b52-bed1-4d2d-b8a2-4a65e5819a2f")
+	)
+	(fp_line
+		(start 5.08 2.54)
+		(end -5.08 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2797565-4de7-49cf-9594-25fa7c009a25")
+	)
+	(fp_circle
+		(center -5.94 1.26)
+		(end -5.64 1.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9dcf65a6-bfc0-4997-ad6e-9edfd5502668")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.12 -3.2705 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f38d0c2c-878a-4908-b095-7fd855f9d598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "01" thru_hole rect
+		(at -3.81 1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a37d2f8b-7642-4f99-92cf-8a70191d830e")
+	)
+	(pad "02" thru_hole circle
+		(at -3.81 -1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "79c6a99c-bc4b-4058-af8c-c5f5a82436f4")
+	)
+	(pad "03" thru_hole circle
+		(at -1.27 1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "26370506-d43c-4bb9-8f02-cdeee39d0b22")
+	)
+	(pad "04" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bc8eab68-282e-465a-80d0-41aacef747c2")
+	)
+	(pad "05" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4a9f3984-cc4f-4612-a6a2-cf0542802566")
+	)
+	(pad "06" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9dd4a065-b138-4c7e-9635-9bb697ca8c17")
+	)
+	(pad "07" thru_hole circle
+		(at 3.81 1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c3022ab9-f34a-44a0-a95b-5c99d9f2f61d")
+	)
+	(pad "08" thru_hole circle
+		(at 3.81 -1.27)
+		(size 1.42 1.42)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3efdc128-831f-4c7c-87e6-d8c868343a1a")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_Samtec.3dshapes/TSW-104-07-G-D.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

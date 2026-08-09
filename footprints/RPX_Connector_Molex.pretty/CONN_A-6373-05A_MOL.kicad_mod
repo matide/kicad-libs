@@ -1,0 +1,276 @@
+(footprint "CONN_A-6373-05A_MOL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex Connector 1x05 Pin P2.54 friction lock")
+	(tags "22232051 ")
+	(property "Reference" "REF**"
+		(at -3.02 -2.32 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6dc491fb-39bd-480d-97ce-b97a66708cf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_A-6373-05A_MOL"
+		(at 5.24 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48d7cc62-41b7-49d2-a1c2-73b945e7128b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8625817e-9e4e-4d83-8834-71951e2a1862")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a8aa421-97f2-47a4-860c-a5c353e8253a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.3208 -3.226999)
+		(end -1.3208 3.377001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c64d14d-028f-4bd1-a065-60bc6f028807")
+	)
+	(fp_line
+		(start -1.3208 3.377001)
+		(end 11.4808 3.377001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e0f227f-a40b-42b7-9930-f25855cdfa72")
+	)
+	(fp_line
+		(start 11.4808 -3.226999)
+		(end -1.3208 -3.226999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be448589-a28e-46e9-9427-205c8fe6cd33")
+	)
+	(fp_line
+		(start 11.4808 -2.47)
+		(end -1.3208 -2.47)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "178cdeeb-f386-430b-aab0-e94490f5bea8")
+	)
+	(fp_line
+		(start 11.4808 3.377001)
+		(end 11.4808 -3.226999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d517758a-6374-450f-b67c-0092e31b463a")
+	)
+	(fp_circle
+		(center -2.57 0.03)
+		(end -2.57 0.03)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1c8821fc-6dbf-40ef-99fd-ed42590e0ae9")
+	)
+	(fp_line
+		(start -1.4478 -3.353999)
+		(end -1.4478 3.504001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40426b6f-7a25-44a1-9a68-fa06f980b4db")
+	)
+	(fp_line
+		(start -1.4478 3.504001)
+		(end 11.6078 3.504001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a418d85-aae6-4102-b6c9-840e53e579b9")
+	)
+	(fp_line
+		(start 11.6078 -3.353999)
+		(end -1.4478 -3.353999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36292b59-d74a-4bd3-8010-e5e17ece06b8")
+	)
+	(fp_line
+		(start 11.6078 3.504001)
+		(end 11.6078 -3.353999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a105b981-e349-40ba-99db-b9570edd8373")
+	)
+	(fp_line
+		(start -1.1938 -3.099999)
+		(end -1.1938 3.250001)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae3f60c1-6aac-441a-ba06-aaaab1ae29e1")
+	)
+	(fp_line
+		(start -1.1938 3.250001)
+		(end 11.3538 3.250001)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7357d76-3cfc-4c4b-b237-f8782cd26538")
+	)
+	(fp_line
+		(start 11.3538 -3.099999)
+		(end -1.1938 -3.099999)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c287072-1751-4710-9ef3-1be07b7b4822")
+	)
+	(fp_line
+		(start 11.3538 3.250001)
+		(end 11.3538 -3.099999)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c7a24cd-f520-4c61-bc59-004250764993")
+	)
+	(fp_circle
+		(center -2.57 0.03)
+		(end -2.57 0.03)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78a5ea98-865d-4561-b336-046a039b179c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.16 -2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d4136e9f-a337-4b2f-a726-2871ec51a8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "588772c8-840f-497e-b350-1d4da244ef1f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74f9b392-1643-480f-9eb7-6536753c7887")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b280619-0a7c-4873-b64b-78cc45cebd3e")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ccdae6ed-2c1d-4ceb-9739-ce4c5664d15b")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df493edf-71f5-4865-b637-0e4bb53b2b02")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_Molex.3dshapes/022232051.stp"
+		(offset
+			(xyz 5.075 0 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

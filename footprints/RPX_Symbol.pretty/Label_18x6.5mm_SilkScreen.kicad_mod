@@ -1,0 +1,91 @@
+(footprint "Label_18x6.5mm_SilkScreen"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.04 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "33490156-e46c-4393-9193-19d6ae57db5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Label_18x6.5mm_SilkScreen"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a5a5e252-5526-402d-87e1-a312df65d19a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8fa0043-387d-4ec0-9060-d49ba1ea0e75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Label 18x6.5mm SikScreen"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23f34cf7-1363-4316-99aa-e743cacaa0d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -9.04 -3.3)
+		(end 8.96 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65172ecc-4449-402b-bc08-f8d058bdbf7a")
+	)
+	(fp_rect
+		(start -9.12 -3.36)
+		(end 9.04 3.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "25049e90-f376-4d3f-98c3-84c5a4464d44")
+	)
+	(fp_text user "Label 18x6.5mm"
+		(at -7.58 0.48 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "233e97e9-11a1-4b91-b25e-4dc41709cc71")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)
+
+

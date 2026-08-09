@@ -1,0 +1,226 @@
+(footprint "SMH-108-02-L-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMH-108-02-XX-S")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 13.7 0)
+		(layer "F.SilkS")
+		(uuid "b65187df-6ad1-4557-892d-ad74f3ef633c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMH-108-02-L-S"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "28d48dfb-c2d7-47af-a232-6703aec042eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa66c74c-b5e2-4a93-9b5d-6ff93e629b5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d968cb9f-0cae-4b3b-af40-60328417dfc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.55 -0.600001)
+		(end -9.95 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45cb85b3-8529-4993-89a1-70e5c81c643e")
+	)
+	(fp_line
+		(start -10.55 0)
+		(end -10.55 -0.600001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a3e2780-d12e-4507-9953-6ef6f6759ed5")
+	)
+	(fp_line
+		(start -9.95 -0.3)
+		(end -10.55 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3991cfb4-9d55-4e19-8e03-e0d414101a53")
+	)
+	(fp_rect
+		(start -10.5 11.9746)
+		(end 10.5 12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "57bd467f-f099-4388-95f3-82cbd800f3c6")
+	)
+	(fp_line
+		(start -10.415 3.02)
+		(end 10.415 3.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "50d53605-1fe2-44ed-b727-7f7356a89bad")
+	)
+	(fp_line
+		(start -10.415 11.53)
+		(end -10.415 3.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "56b6b693-24e5-4080-89f5-fbbebca5341f")
+	)
+	(fp_line
+		(start 10.415 3.02)
+		(end 10.415 11.53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4d55a038-e0ee-4b3d-801a-29f998f442b3")
+	)
+	(fp_line
+		(start 10.415 11.53)
+		(end -10.415 11.53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "eb395910-3479-4920-b994-79b171d2506d")
+	)
+	(fp_rect
+		(start -11 -2)
+		(end 11 12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "04117814-f712-488f-97eb-1094d5bf0351")
+	)
+	(pad "1" smd roundrect
+		(at -8.89 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "0e8e1457-78ee-4e4e-b3b0-f0304d7ff078")
+	)
+	(pad "2" smd roundrect
+		(at -6.35 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "c8cacb8d-2cd1-4f48-992a-147c12662184")
+	)
+	(pad "3" smd roundrect
+		(at -3.81 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "4c4b9eac-caee-47c6-813b-db474ac2e8c1")
+	)
+	(pad "4" smd roundrect
+		(at -1.27 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "827caea7-2b59-405b-aef1-0ecc057d03c9")
+	)
+	(pad "5" smd roundrect
+		(at 1.27 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "3a524aa4-3b3b-44e6-901e-3e2b3c1bf739")
+	)
+	(pad "6" smd roundrect
+		(at 3.81 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "753f6214-0bd6-4a1d-a561-4aa0fc05c0b3")
+	)
+	(pad "7" smd roundrect
+		(at 6.35 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "a72127ab-97d3-49ab-bbd4-a76efd6dd52d")
+	)
+	(pad "8" smd roundrect
+		(at 8.89 -0.245)
+		(size 1.04 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2403846154)
+		(thermal_bridge_angle 45)
+		(uuid "44b15f39-242b-4e50-892c-fa379cb71a16")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_Samtec.3dshapes/SMH-108-02-L-S.stp"
+		(offset
+			(xyz 0 -3 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

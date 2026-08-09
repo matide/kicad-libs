@@ -1,0 +1,245 @@
+(footprint "XTAL_ACH-10.000MHZ-EK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.175 -8.255 0)
+		(layer "F.SilkS")
+		(uuid "83ac65c2-1548-45f6-af97-c13e7964ab51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_ACH-10.000MHZ-EK"
+		(at 7.62 8.255 0)
+		(layer "F.Fab")
+		(uuid "585c8856-6593-4394-a497-6b78f1ac756c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2c9c4c8-8159-452e-9be7-b4ede743709c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59b24d62-6988-4848-b6db-88965fbc9124")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.6 -6.6)
+		(end -6.6 6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "351f1008-1b6f-45af-8ab9-c718c593b3fc")
+	)
+	(fp_line
+		(start -6.6 6.6)
+		(end 6.6 6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adaef854-0aa8-469d-861c-a5710a3bbc5e")
+	)
+	(fp_line
+		(start 6.6 -6.6)
+		(end -6.6 -6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "401a3d49-17ae-4cf4-9a85-371d63267914")
+	)
+	(fp_line
+		(start 6.6 6.6)
+		(end 6.6 -6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fbbb6e3-5384-48e9-8374-45072d8c1055")
+	)
+	(fp_circle
+		(center -7.62 -3.81)
+		(end -7.52 -3.81)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "98ec2cb0-c9ac-4241-8c82-98f6c26b0ad4")
+	)
+	(fp_line
+		(start -6.85 -6.85)
+		(end 6.85 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5107466b-cafc-4b28-9c49-cf0d5efaf6e5")
+	)
+	(fp_line
+		(start -6.85 6.85)
+		(end -6.85 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bca515a9-061d-4519-a2a0-519ffd6e9104")
+	)
+	(fp_line
+		(start 6.85 -6.85)
+		(end 6.85 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b668caf-f501-42e0-9621-ceb812909627")
+	)
+	(fp_line
+		(start 6.85 6.85)
+		(end -6.85 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "260efffc-e5ea-4232-ac85-fee89424c03b")
+	)
+	(fp_line
+		(start -6.6 -6.6)
+		(end 6.6 -6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4391dc0-de76-4ca4-9515-b5992fb2acea")
+	)
+	(fp_line
+		(start -6.6 6.6)
+		(end -6.6 -6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ef6c90a-d4e2-4894-be8f-be38ae87e513")
+	)
+	(fp_line
+		(start 6.6 -6.6)
+		(end 6.6 6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ccb4c41-2284-4697-87c5-46db753eaed8")
+	)
+	(fp_line
+		(start 6.6 6.6)
+		(end -6.6 6.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a298836-462c-4d83-ae42-69150f27ad65")
+	)
+	(fp_circle
+		(center -7.62 -3.81)
+		(end -7.52 -3.81)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9e30bb42-78e6-4da9-9609-d1b80919a956")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0615dead-7154-4bd0-80aa-b8edd897d698")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5941d2e9-21c6-47bd-8c24-355596793eff")
+	)
+	(pad "5" thru_hole circle
+		(at 3.81 3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1ff03819-9d3b-4d35-a465-9e4386c5988c")
+	)
+	(pad "8" thru_hole circle
+		(at 3.81 -3.81)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7ad6ab23-d37f-4fd6-b35a-f0563262c59c")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Oscillator.3dshapes/ACH-10.000MHZ-EK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+
+

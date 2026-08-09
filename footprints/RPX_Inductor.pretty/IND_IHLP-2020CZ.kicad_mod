@@ -1,0 +1,340 @@
+(footprint "IND_IHLP-2020CZ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "IHLP2020CZER4R7M11 ")
+	(property "Reference" "REF**"
+		(at -3.48 -4.09 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3bc39e00-f740-49f9-9cb4-d95fa88b774c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "IND_IHLP-2020CZ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55865748-0608-4aec-823f-c0c70f7e882c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ae0141-2c6f-4772-a1db-332736a508b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f77d5fd2-3aa7-448a-9015-49678cdf3e1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.9972 -2.8448)
+		(end -2.9972 -1.72974)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22fdc22a-4209-4e11-9b72-e62069353159")
+	)
+	(fp_line
+		(start -2.9972 1.72974)
+		(end -2.9972 2.8448)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f6059a8-7061-4589-b269-70aa8f58dbfd")
+	)
+	(fp_line
+		(start -2.9972 2.8448)
+		(end 2.9972 2.8448)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b2cd11f-17ec-443b-a5f2-82db4de4353d")
+	)
+	(fp_line
+		(start 2.9972 -2.8448)
+		(end -2.9972 -2.8448)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3039188c-3114-4b40-ac77-2b1ddc27389f")
+	)
+	(fp_line
+		(start 2.9972 -1.72974)
+		(end 2.9972 -2.8448)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e66d14d8-41f1-4fb3-a127-69f6aba590ff")
+	)
+	(fp_line
+		(start 2.9972 2.8448)
+		(end 2.9972 1.72974)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4c421cd-844b-407e-b4ee-02ba12732ded")
+	)
+	(fp_circle
+		(center -3.5 -2)
+		(end -3.3 -2)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e4170df2-9ab0-44f6-aed9-a9326ed22b95")
+	)
+	(fp_line
+		(start -3.65 -1.651)
+		(end -3.1242 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fc55c93-f845-45e4-b81c-2b49832456fe")
+	)
+	(fp_line
+		(start -3.65 1.651)
+		(end -3.65 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99a972e0-677a-4fec-b095-f21886e0f66a")
+	)
+	(fp_line
+		(start -3.1242 -2.9718)
+		(end 3.1242 -2.9718)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7226e1cf-5291-419a-b5bd-ed77319f3246")
+	)
+	(fp_line
+		(start -3.1242 -1.651)
+		(end -3.1242 -2.9718)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5098bf76-abcf-4647-9c27-d69315d13360")
+	)
+	(fp_line
+		(start -3.1242 1.651)
+		(end -3.65 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97c4b176-6bb6-4ee2-8ba7-5baed3d0f094")
+	)
+	(fp_line
+		(start -3.1242 2.9718)
+		(end -3.1242 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e73a1437-5b05-4e32-a9aa-8531cbcd6188")
+	)
+	(fp_line
+		(start 3.1242 -2.9718)
+		(end 3.1242 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47684bbc-0f42-4905-b533-8c1d0cbbc157")
+	)
+	(fp_line
+		(start 3.1242 -1.651)
+		(end 3.69 -1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7e6ac66-e4dc-4548-b661-25583a27da4e")
+	)
+	(fp_line
+		(start 3.1242 1.651)
+		(end 3.1242 2.9718)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8543e953-104b-41b5-8650-fa5184275bff")
+	)
+	(fp_line
+		(start 3.1242 2.9718)
+		(end -3.1242 2.9718)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b81d2cc1-d1d5-4392-b1e0-cfc1924d03c5")
+	)
+	(fp_line
+		(start 3.69 -1.651)
+		(end 3.69 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0b9fdfa-9543-49f2-adfc-817dd6cc28a8")
+	)
+	(fp_line
+		(start 3.69 1.651)
+		(end 3.1242 1.651)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57119c8b-14e9-427d-aef0-bfa2ecae8428")
+	)
+	(fp_line
+		(start -2.8702 -2.7178)
+		(end -2.8702 2.7178)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "222c633f-ac94-4531-b89c-00e6eaf02276")
+	)
+	(fp_line
+		(start -2.8702 2.7178)
+		(end 2.8702 2.7178)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3a31368-d756-49cd-9aaa-b76c30313ae8")
+	)
+	(fp_line
+		(start 2.8702 -2.7178)
+		(end -2.8702 -2.7178)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f7a2226-eee0-48fe-a835-08664bbea4f0")
+	)
+	(fp_line
+		(start 2.8702 2.7178)
+		(end 2.8702 -2.7178)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bce3431-4d3b-4b7f-a458-3cf16c0fc559")
+	)
+	(fp_circle
+		(center -2.3622 0)
+		(end -2.0622 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "8d3f6e30-f474-49f1-98cd-f2a1ce2ffc84")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.48 -4.09 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c614a29-2773-404d-b1f1-8872dc0e51e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.23 0 90)
+		(size 2.794 2.3812)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0f50d9a-548c-4cd8-bcbd-58da6dd8689c")
+	)
+	(pad "2" smd rect
+		(at 2.23 0 90)
+		(size 2.794 2.3812)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31181c64-551d-4507-8362-7da09e180b3c")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Inductor.3dshapes/IHLP2020CZ.step"
+		(offset
+			(xyz -0.75 6.05 -2.45)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+

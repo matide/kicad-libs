@@ -1,0 +1,140 @@
+(footprint "L_Wurth_WE-PMCI-322512"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Molded Chip Inductor, body 3.2x2.5x1.2mm, https://www.we-online.com/en/components/products/WE-PMCI#/articles/WE-PMCI-322512")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c953a7b-77ab-432f-a26a-f1ba7382119e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-PMCI-322512"
+		(at 0 2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e2cbcc1-8a99-49f9-b322-2d4a38bbf284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0966050e-59fb-4784-8ab4-a76ae80bf4eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "746be468-95a6-483d-a23c-893fd7d021be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.66)
+		(end 1.6 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6fab9b6-7aa2-4d00-806e-44ef74371699")
+	)
+	(fp_line
+		(start -1.6 1.66)
+		(end 1.6 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93a37a21-1b2e-4b23-8a52-b43dcfa9b5e6")
+	)
+	(fp_rect
+		(start -2.3 -1.65)
+		(end 2.3 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "859a348c-5b86-49d9-bb56-100034138589")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "49bea598-5c8d-46b6-8af4-8c1fa3ff2fa5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6e88548-0b9f-42aa-86a8-aac2865100e4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.575 0)
+		(size 1.45 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1724137931)
+		(uuid "bf76891a-3d96-4b45-8f50-0d4306c4b3f5")
+	)
+	(pad "2" smd roundrect
+		(at 1.575 0)
+		(size 1.45 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1724137931)
+		(uuid "cedb18dc-6d28-4570-9839-47558d8dada2")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Inductor/L_Wurth_WE-PMCI-322512.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
+
+

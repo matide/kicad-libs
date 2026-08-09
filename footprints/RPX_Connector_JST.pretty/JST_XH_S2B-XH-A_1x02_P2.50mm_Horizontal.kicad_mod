@@ -1,0 +1,334 @@
+(footprint "JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST XH series connector, S2B-XH-A, SnapEDA (https://www.snapeda.com/parts/S2B-XH-A/JST%20Sales/view-part/?ref=search&t=S2B-XH-A&ab_test_case=b)")
+	(tags "connector JST XH Horizontal")
+	(property "Reference" "REF**"
+		(at -0.695 -10.795 0)
+		(layer "F.SilkS")
+		(uuid "b63cf4ba-63bf-4314-91e8-81f7788ccab1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST_S2B-XH-A"
+		(at 3.75 -9.2075 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40266b27-e51d-465f-99ea-678dc2181b81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "${RUPIDEX_DATASHEET_DIR}/eXH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ab19df3-da98-4fd7-9408-30878aeaf073")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f68af0fb-4796-4124-bf86-90e40a95923c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.7 -8)
+		(end -3.7 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e55d03c3-1766-4384-a4e8-70e66df9a67e")
+	)
+	(fp_line
+		(start -2.8 -8)
+		(end -3.7 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4cc0ae6-b2a2-4fbc-8d6a-d3ec88ea1896")
+	)
+	(fp_line
+		(start -2.8 -3.5)
+		(end -2.8 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbd03434-e27b-427b-a87e-06eb9ee75898")
+	)
+	(fp_line
+		(start 2.8 -8)
+		(end 2.8 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59cd192b-11d2-4b93-a79c-d1495d0ce160")
+	)
+	(fp_line
+		(start 2.8 -3.5)
+		(end -2.8 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc58fa91-1216-4330-ad18-436dc7466717")
+	)
+	(fp_line
+		(start 3.7 -8)
+		(end 2.8 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47376e5f-e5c1-4afe-b3fc-3df91f05b5f1")
+	)
+	(fp_line
+		(start 3.7 3.5)
+		(end 3.7 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa278a8e-9203-4f3b-8435-4a230379d1b6")
+	)
+	(fp_circle
+		(center -3.275 -5.7)
+		(end -3.175 -5.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b7ea0f60-5eda-4e1a-8426-8af9d2637a1e")
+	)
+	(fp_line
+		(start -3.95 -8.25)
+		(end -3.95 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "887cf525-5c6c-416c-8002-be133542d77e")
+	)
+	(fp_line
+		(start -3.95 3.75)
+		(end 3.95 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17af4d52-42ed-4fbe-91f8-7a208c5a6c48")
+	)
+	(fp_line
+		(start 3.95 -8.25)
+		(end -3.95 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31f7dab9-53c5-44b7-8f5e-d25368c5de29")
+	)
+	(fp_line
+		(start 3.95 3.75)
+		(end 3.95 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2219a7a5-56be-43bd-819a-0a15a8af298b")
+	)
+	(fp_line
+		(start -3.7 -8)
+		(end -3.7 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "341e3f57-6f94-4c5b-b064-64f54ca94cc4")
+	)
+	(fp_line
+		(start -3.7 3.5)
+		(end 3.7 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9819183-7e00-47bc-8fc5-85c476e3d908")
+	)
+	(fp_line
+		(start -2.8 -8)
+		(end -3.7 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7ef61d3-e39f-4cbc-bee7-31d0239c3a9f")
+	)
+	(fp_line
+		(start -2.8 -3.5)
+		(end -2.8 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c30fc5a4-ed17-4994-baed-21d55f094aac")
+	)
+	(fp_line
+		(start 2.8 -8)
+		(end 2.8 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f91ad9de-cb07-4698-ae83-91eecb27d5d8")
+	)
+	(fp_line
+		(start 2.8 -3.5)
+		(end -2.8 -3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42704c0c-d316-4c10-a364-951c4366932a")
+	)
+	(fp_line
+		(start 3.7 -8)
+		(end 2.8 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7278602b-e4fb-4c06-a02c-734f101d01ff")
+	)
+	(fp_line
+		(start 3.7 3.5)
+		(end 3.7 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54522535-ea19-4905-b285-b052c5065da6")
+	)
+	(fp_line
+		(start 3.7 3.5)
+		(end 6.32 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4cc65f9-b4ec-4508-be84-ca409e516e87")
+	)
+	(fp_circle
+		(center -3.275 -5.7)
+		(end -3.175 -5.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "484e566d-0ded-4ba3-ae29-e847014eb55d")
+	)
+	(fp_text user "PCB Edge"
+		(at 4.1675 3.2025 0)
+		(layer "F.Fab")
+		(uuid "56fa8a96-2be3-402e-8e66-5e634f364dd1")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.6 0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6d2f6ba-7f2d-4851-b10a-39be8b3388f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.25 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "70d7c624-5e2f-45a2-9334-a4c804ece89e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 -5.7)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "acc82ac9-a049-4ff0-8afc-69b39b8eb76b")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Connector_JST.3dshapes/JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal.step"
+		(offset
+			(xyz -1.25 5.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
+
+

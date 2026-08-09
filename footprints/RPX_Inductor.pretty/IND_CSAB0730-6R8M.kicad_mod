@@ -1,0 +1,237 @@
+(footprint "IND_CSAB0730-6R8M"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.75 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "89d12330-ed07-4f5e-9bb5-ee3df4259c45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "IND_CSAB0730-6R8M"
+		(at 6.295 4.365 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b650d1eb-a203-40aa-8c5b-88b1d0ad2f82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f8c343-ad13-4542-98d2-c1217a320407")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "362ebf9b-89d8-4fea-9540-e8b728383f4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.3 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "405f8da9-cc42-4891-bb49-926e44f9d8c3")
+	)
+	(fp_line
+		(start -3.3 -2.35)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "657af692-f697-490d-a986-36c07e036690")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end -3.3 2.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7abe702-8d6b-4eeb-9977-25351a51b5fa")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 -2.35)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eba7baa-afd6-48d2-98b7-11ce3abd13fa")
+	)
+	(fp_line
+		(start 3.3 2.35)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44d62270-dd6b-4e67-89ce-45335582b9fd")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "069b23c3-2868-4a27-8f4d-b78d23c640b9")
+	)
+	(fp_line
+		(start -4.45 -3.55)
+		(end -4.45 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c65b196a-f927-47f3-b2c7-3ea35b534e6b")
+	)
+	(fp_line
+		(start -4.45 3.55)
+		(end 4.45 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02a9c26b-3336-4bc8-9eef-b815e5974280")
+	)
+	(fp_line
+		(start 4.45 -3.55)
+		(end -4.45 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "001cd819-718d-465d-a8b1-52971d79bb85")
+	)
+	(fp_line
+		(start 4.45 3.55)
+		(end 4.45 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ca6f6e4-4bb3-4534-98c5-4b6a6709088a")
+	)
+	(fp_line
+		(start -3.3 -3.3)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf52c8b2-9334-459d-82b1-6ab75e4bd250")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dcf76a40-54a9-4ce6-8cc0-c2f9fead09aa")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b192ea8f-3120-4d45-80d8-14c69ba3d039")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0beab47c-1a4c-4cbe-8117-15de548df7c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.75 -3.679375 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "774baf6c-b852-4a24-a837-193c0e291eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6feef591-cdb8-45b8-be8c-e0b96ff8b455")
+	)
+	(pad "2" smd rect
+		(at 3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "470cf8bd-ae5b-47dc-8829-cc5e3fda7363")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_3DMODEL_DIR}/RPX_Inductor.3dshapes/CSAB0730-6R8M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
+
+
