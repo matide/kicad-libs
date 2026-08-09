@@ -1,0 +1,12 @@
+# KiCad locks and temporary files
+*.lck
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*-bak
+
+# Windows/macOS
+Thumbs.db
+.DS_Store
