@@ -25,7 +25,7 @@ Write-Host ""
 # Paths
 # ------------------------------------------------------------
 
-$LibRoot = "C:\Rupidex\KiCad\LIBS"
+$LibRoot = "C:\Rupidex\KiCad\kicad-libs"
 $ConfigRoot = Join-Path $env:APPDATA "kicad\10.0"
 
 $SymbolDir = Join-Path $LibRoot "symbols"
