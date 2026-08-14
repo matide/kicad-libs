@@ -1111,10 +1111,20 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 6.35) (xy -2.54 7.62) (xy 2.54 7.62) (xy 3.81 6.35)
+			(rectangle
+				(start -7.62 -24.13)
+				(end 7.62 -30.48)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.81 -6.35)
+				(end 3.81 -24.13)
 				(stroke
 					(width 0)
 					(type default)
