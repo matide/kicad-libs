@@ -4,36 +4,12 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "OV5640 CMOS Camera Module")
-	(property "Reference" "REF**"
-		(at 0 -0.5 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "a6427f28-05c9-498f-8b6d-f9bc6908c8cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "SF-OV5640BY"
-		(at 0 1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "15d5e974-58cf-43aa-9970-207eb146dd55")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" "kicad-embed://SF-OV5640BY OV5640 5MP DVP FF D68.5 spec (SincereFirst) .pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "208e650d-b492-4d8c-ae00-558507678eae")
+		(uuid "6d1f64c4-c630-4926-908f-ef8492dcd316")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "848a0aa1-8d90-4cdd-9340-0a6646f543de")
+		(uuid "4aedc932-4660-4258-a2fe-d341bb6c1fca")
 		(effects
 			(font
 				(size 1 1)
@@ -54,78 +30,122 @@
 			)
 		)
 	)
+	(property "Value" "SF-OV5640BY"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "537d4693-92f8-4aed-a7c7-a1bebe909509")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8eaf796f-ad37-4fbf-817c-068b570065d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -6 -14.25)
-		(end 6 -14.25)
+		(start -6.25 -10)
+		(end 6.25 -10)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "57bb1bdc-b736-478d-893c-524704aa0e83")
+		(uuid "b1f897b7-c194-40b3-bc00-4aa90f6593a6")
+	)
+	(fp_line
+		(start -3 -6.75)
+		(end 3 -6.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5609db12-4291-409d-9d4d-e2ad3117575f")
+	)
+	(fp_line
+		(start -3 -4.75)
+		(end 3 -4.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6e294eb1-1965-4f0f-862b-ab605292eb91")
 	)
 	(fp_rect
-		(start -6 -16.5)
-		(end 6 -12)
+		(start -6.25 -12.25)
+		(end 6.25 -7.75)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "c9a4507c-a293-47a3-91cf-45f20a52880d")
+		(uuid "1c727baf-a788-4f96-9926-2212a5dcab27")
 	)
 	(fp_rect
-		(start -4.5 -4)
-		(end 4.5 4.5)
+		(start -4.25 -4.25)
+		(end 4.25 4.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "fb7bb2bd-da13-403f-b549-ab89a8bd8073")
+		(uuid "6a283abf-f064-40ff-8fb6-2c046b2f2204")
 	)
 	(fp_rect
-		(start -3 -12)
-		(end 3 -4)
+		(start -3 -7.75)
+		(end 3 -4.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "5a79a2c6-376f-42da-819e-f3ce47947349")
+		(uuid "f37d2ad7-f851-43ee-8036-1d330226caab")
 	)
 	(fp_circle
-		(center 0 0.25)
-		(end 0 2)
+		(center 0 0)
+		(end 0 1.75)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "388cdd03-cc4f-48e2-b6c6-9c402c73b9e9")
+		(uuid "1a610548-865d-479d-b493-aa510f0b1676")
 	)
 	(fp_circle
-		(center 0 0.25)
-		(end 0 4)
+		(center 0 0)
+		(end 0 3.75)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "2c015d0b-d942-4b15-a092-d21e32c55e4d")
+		(uuid "72b5550e-9630-4bb0-ba04-b76767b7b4bd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 2.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5afec763-7880-404c-b0b3-da2ced55314d")
+		(uuid "43722675-f928-4af2-8a8f-cff2e3a80bcd")
 		(effects
 			(font
 				(size 1 1)
@@ -40622,7 +40642,7 @@
 			(checksum "3568347294DE38047CB7D457284B2018")
 		)
 	)
-	(model "${RUPIDEX_LIBS}/3dmodels/RPX_Other.3dshapes/SF-OV5640BY.stp"
+	(model "${RUPIDEX_LIBS}/3dmodels/RPX_System_On_Module.3dshapes/SF-OV5640BY.step"
 		(offset
 			(xyz 0 0 0)
 		)

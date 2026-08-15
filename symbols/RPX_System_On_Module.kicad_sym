@@ -1112,8 +1112,8 @@
 				)
 			)
 			(rectangle
-				(start -7.62 -24.13)
-				(end 7.62 -30.48)
+				(start -7.62 -15.24)
+				(end 7.62 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -1124,7 +1124,31 @@
 			)
 			(rectangle
 				(start -3.81 -6.35)
-				(end 3.81 -24.13)
+				(end 3.81 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -7.62) (xy 3.81 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -12.7) (xy 3.81 -12.7)
+				)
 				(stroke
 					(width 0)
 					(type default)
