@@ -1,0 +1,170 @@
+(footprint "JB3030CWT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Cree JB3030CWT E Class 3030 LED")
+	(tags "Cree JB3030CWT 3030 LED E-H50")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "f14cca9f-a621-4614-aee4-250a81da3c21")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "JB3030CWT"
+		(at 0 2.15 0)
+		(layer "F.Fab")
+		(uuid "50aad370-e162-4768-831d-835adf2944fb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a29c34f-3d59-4ce9-88ef-0ac8ebc25e0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b63dcdc5-2f92-42de-8e67-47a8fbb59cdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -1.5)
+		(end -1.65 -1.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c87a3b44-346c-453f-97c4-e3b09adb77cf")
+	)
+	(fp_line
+		(start -1.65 -1.5)
+		(end 1.65 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efe32c37-323e-46c7-a65d-4d6a173239e9")
+	)
+	(fp_line
+		(start -1.65 1.5)
+		(end -1.65 1.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad955dde-2b48-4e17-98e6-e4a6af37406b")
+	)
+	(fp_line
+		(start -1.48 1.38)
+		(end -1.48 1.05)
+		(stroke
+			(width 0.18)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "209967ee-ecee-4889-a757-082434a1e787")
+	)
+	(fp_line
+		(start -1.48 1.38)
+		(end -1.15 1.38)
+		(stroke
+			(width 0.18)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4549a8a-5a6d-476a-8bc2-e3ff7bcb2ec9")
+	)
+	(fp_line
+		(start 1.65 -1.5)
+		(end 1.65 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "665285fb-0a60-480c-8cb3-d65dec4f1b83")
+	)
+	(fp_line
+		(start 1.65 1.5)
+		(end -1.65 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "39be026b-1689-4f84-99a0-6378a1dda1cd")
+	)
+	(fp_rect
+		(start -1.8 -1.65)
+		(end 1.8 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e51cfe4-429f-48b5-8063-14a6c21f1abd")
+	)
+	(fp_rect
+		(start -1.65 -1.5)
+		(end 1.65 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "982598cc-cec6-46c2-90d6-7bcdd46fe6c6")
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 1.15 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18ab24dc-9308-444c-b254-c2ed0a9ec6ca")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 1.15 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9f5a253-a216-44d5-a604-545dce61541c")
+	)
+	(embedded_fonts no)
+	(model "${RUPIDEX_LIBS}/3dmodels/RPX_LED_SMD.3dshapes/J Series JB3030CWT.STEP"
+		(offset
+			(xyz 0 0 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 90)
+		)
+	)
+)
