@@ -672,60 +672,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -45.72 -30.48 0)
-				(length 2.54)
-				(name "SPIIO6/GPIO35/FSPID/SUBSPID"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -45.72 -33.02 0)
-				(length 2.54)
-				(name "SPIIO7/GPIO36/FSPICLK/SUBSPICLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -45.72 -35.56 0)
-				(length 2.54)
-				(name "SPIDQS/GPIO37/FSPIQ/SUBSPIQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 45.72 -25.4 180)
 				(length 2.54)
 				(name "GPIO38/FSPIWP/SUBSPIWP"
@@ -936,6 +882,84 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -34.29 -29.21) (xy -33.02 -29.21) (xy -33.02 -36.83) (xy -34.29 -36.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1_1_0"
+			(pin bidirectional line
+				(at -45.72 -30.48 0)
+				(length 2.54)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -45.72 -33.02 0)
+				(length 2.54)
+				(name "GPIO36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -45.72 -35.56 0)
+				(length 2.54)
+				(name "GPIO37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1_1_1"
+			(text "PSRAM\nDon't use"
+				(at -29.718 -32.766 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
