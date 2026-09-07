@@ -154,7 +154,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C2913202"
+		(property "Supplier 1 Part Number" "C2913202"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Supplier 1 Price (100+)" "$ 3.5574"
+		(property "Supplier 1 100+ $ Price" "3,5574"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -187,7 +187,7 @@
 				)
 			)
 		)
-		(property "Supplier Partnumber 2" "5407-ESP32-S3-WROOM-1-N16R8CT-ND"
+		(property "Supplier 2 Part Number" "5407-ESP32-S3-WROOM-1-N16R8CT-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -198,7 +198,7 @@
 				)
 			)
 		)
-		(property "Supplier 2 Price (100+)" "$5.1080"
+		(property "Supplier 2 100+ $ Price" "5,1080"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
