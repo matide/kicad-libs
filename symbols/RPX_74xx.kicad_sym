@@ -39139,7 +39139,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "Mouser Electronics, Inc."
+		(property "Supplier 1" "LCSC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39150,7 +39150,29 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "621-74LVC1T45W6-7"
+		(property "Supplier 1 Part Number" "C168856"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 50+ $ Price" "0,0813"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "A"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

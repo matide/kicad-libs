@@ -140,7 +140,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "Supplier 1" "LCSC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151,7 +151,18 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "AP2171DWG-7DICT-ND"
+		(property "Supplier 1 Part Number" "C2680322"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 50+ $ Price" "0,2271"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

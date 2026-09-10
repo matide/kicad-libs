@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "Mouser"
+		(property "Supplier 1" "DigiKey"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1534,18 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "81-BLM21PG121SZ1D"
+		(property "Supplier 1 Part Number" "490-18101-1-ND"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 100+ $ Price" "0,05710"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
