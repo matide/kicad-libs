@@ -8924,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "DigiKey"
+		(property "Supplier 1" "LCSC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +8935,7 @@
 				)
 			)
 		)
-		(property "Supplier 1 Part Number" "609-20021221-00006T4LF-ND"
+		(property "Supplier 1 Part Number" "C5408329"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8946,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Supplier 1 84 $Price" "0,49798"
+		(property "Supplier 1 84 $Price" "0,9912"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,40 +13008,40 @@
 				)
 			)
 		)
+		(property "Supplier 1" "LCSC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 Part Number" "C598547"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 100+$ Price" "1,2079"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Category" "A"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1" "DigiKey"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1 Part Number" "609-5782-1-ND"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1 100+$ Price" "1,17170"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22034,7 +22034,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "Mouser"
+		(property "Supplier 1" "LCSC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22045,7 +22045,18 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "798-FH12-24S-0.5SH55"
+		(property "Supplier 1 Part Number" "C202112"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1 100+ $ Price" " 0,4446"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
