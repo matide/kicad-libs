@@ -45330,7 +45330,7 @@
 			)
 		)
 	)
-	(symbol "HDGC1002WR-S-7P"
+	(symbol "HDGC2001WR-S-2P"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -45346,7 +45346,7 @@
 				)
 			)
 		)
-		(property "Value" "HDGC1002WR-S-7P"
+		(property "Value" "HDGC2001WR-S-2P"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45356,7 +45356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPX_Connector_HDGC:CONN-SMD_7P-P1.00_HDGC_HDGC1002WR-S-7P"
+		(property "Footprint" "RPX_Connector_HDGC:CONN-SMD_2P-P2.00_HDGC_HDGC2001WR-S-2P"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45378,7 +45378,7 @@
 				)
 			)
 		)
-		(property "Description" "Conn Header SMD R/A 7Pos 1mm"
+		(property "Description" "Conn Header SMD R/A 2Pos 2mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45444,7 +45444,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "HDGC1002WR-S-7P"
+		(property "Manufacturer Part Number" "HDGC2001WR-S-2P"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45466,7 +45466,7 @@
 				)
 			)
 		)
-		(property "Supplier 1 Part Number" "C5175296"
+		(property "Supplier 1 Part Number" "C2936224"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45477,7 +45477,7 @@
 				)
 			)
 		)
-		(property "Supplier 1 50+ $ Price" "0,0848"
+		(property "Supplier 1 100+ $ Price" "0,049"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45499,7 +45499,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "Conn Header SMD R/A 7Pos 1mm"
+		(property "ki_keywords" "Conn Header SMD R/A 2Pos 2mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45510,10 +45510,10 @@
 				)
 			)
 		)
-		(symbol "HDGC1002WR-S-7P_1_0"
+		(symbol "HDGC2001WR-S-2P_1_0"
 			(rectangle
-				(start -2.54 10.16)
-				(end 5.08 -10.16)
+				(start -1.27 3.81)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -45524,7 +45524,7 @@
 				)
 			)
 			(circle
-				(center -1.27 8.89)
+				(center 0 2.54)
 				(radius 0.381)
 				(stroke
 					(width 0.254)
@@ -45536,7 +45536,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 7.62 0)
+				(at -3.81 1.27 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -45554,7 +45554,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 5.08 0)
+				(at -3.81 -1.27 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -45572,7 +45572,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 2.54 0)
+				(at 3.81 -6.35 90)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -45590,7 +45590,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -5.08 0 0)
+				(at 3.81 6.35 270)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -45600,96 +45600,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -5.08 0)
-				(length 2.54)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -5.08 -7.62 0)
-				(length 2.54)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 2.54 -12.7 90)
-				(length 2.54)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 2.54 12.7 270)
-				(length 2.54)
-				(name "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
